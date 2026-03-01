@@ -1,1 +1,1 @@
-
+simple cli tool that uses yt-dlp to download youtube videos in a (somewhat) intuitive way.
