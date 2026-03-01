@@ -20,4 +20,5 @@ A simple command-line tool for downloading YouTube videos as MP3 files using yt-
 ## Usage
 
 Basic usage to download a single video: `python "yt downloader.py" https://www.youtube.com/watch?v=example`
+
 Multiple videos: `python "yt downloader.py" https://www.youtube.com/watch?v=video1 https://www.youtube.com/watch?v=video2`
