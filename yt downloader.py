@@ -4,11 +4,11 @@ import shutil
 import argparse
 
 global args
-print(sys.argv)
+
 def argparsers():
     parser = argparse.ArgumentParser(description="download YouTube videos as mp3")
     parser.add_argument("urls", nargs='+', help="one or more youtube URLs")
-    parser.add_argument("--playlist", action="store_true", default=False, help="allow playlist downloads")
+    parser.add_argument("--allowPlaylist", action="store_true", default=False, help="allow playlist downloads")
     parser.add_argument("--quality", "-q", default=0, help="mp3 quality (0 best, 9 worst)")
     parser.add_argument("--outputLocation", "--o", default='%(title)s.%(ext)s', help="where to output the files?")
     parser.add_argument("--verbose", "-v", default=False, action="store_true", help="do you want the program to list everything it does while running?")
