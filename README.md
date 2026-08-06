@@ -1,6 +1,6 @@
 # YouTube Downloader
 
-A simple command-line tool for downloading YouTube videos as MP3 files using yt-dlp and FFmpeg.
+A very basic command-line wrapper tool for downloading YouTube videos as MP3 files using yt-dlp and FFmpeg. (i was curious about something)
 Upon install, do `python "yt downloader.py" -h` for more information.
 
 ## Requirements
